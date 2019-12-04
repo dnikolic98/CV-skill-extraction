@@ -4,7 +4,7 @@ import csv
 
 class Glove:
     def __init__(self):
-        self.words = pd.read_table("GloVe/glove50d.txt", sep=" ", index_col=0, header=None, quoting=csv.QUOTE_NONE)
+        self.words = pd.read_table("GloVe/glove50dtwitter.txt", sep=" ", index_col=0, header=None, quoting=csv.QUOTE_NONE)
 
     
     def vec(self, w):
