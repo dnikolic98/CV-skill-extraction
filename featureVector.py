@@ -2,6 +2,10 @@ import re
 import numpy as np
 
 class FeatureVector:
+    '''
+    Word vectorising based on representing presence or
+    absence of multiple binary features
+    '''
     def vectorise(self, phrase):
         vector = []
         symbols = re.compile('[@_!#$%^&*()<>?/\|}{~:]')

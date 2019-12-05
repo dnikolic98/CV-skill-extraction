@@ -1,0 +1,1 @@
+- dataset/skill.csv treba srediti da budu samo vjestine

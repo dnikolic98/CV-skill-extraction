@@ -2,11 +2,18 @@ from glove import Glove
 from featureVector import FeatureVector
 import numpy as np
 
+'''
+Preprocesses string data(phrases, context and/or skills)
+into vectors for nerual network.
+'''
 class Preprocessor():
     def __init__(self, context_n=3):
         self.glove = Glove()
         self.featureVector = FeatureVector()
 
+    '''
+    Transforms words into vectors using GloVe and concatenates vectors on x asxis
+    '''
     def concat(self, phrase):
         phrase = phrase.split()
         ret_array = self.glove.vec(phrase[0])
@@ -15,7 +22,9 @@ class Preprocessor():
                 ret_array = np.concatenate((ret_array, self.glove.vec(word)))
         return ret_array
 
-    
+    '''
+    Main logic that for phrases, context and/or skills returns vector values.
+    '''
     def preprocess(self, noun_phrases, context, skills=False):
         phrases_vec = []
         context_vec = []

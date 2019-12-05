@@ -10,13 +10,21 @@ class InputExtractor:
         self.rexParser = nltk.RegexpParser(self.grammar)
         self.context_n = context_n
 
-    def npExtraction(self, sentence):
-        tagged = self.rexParser.parse(nltk.pos_tag(nltk.word_tokenize(sentence)))
+    '''
+    Extracts all noun phrases from text(CV)
+    '''
+    def npExtraction(self, cv):
+        tagged = self.rexParser.parse(nltk.pos_tag(nltk.word_tokenize(cv)))
         ret_list = []
         for tree in tagged.subtrees(filter=lambda t: t.label() == 'NP'):
             ret_list.append(' '.join([child[0] for child in tree.leaves()]))
         return ret_list
-
+    
+    '''
+    For given phrase extracts n-words from left and right.
+    Returns list of context (single string) and
+    int representing index of last given phrase
+    '''
     def contextExtractionSingle(self, phrase, cv, n):
         index_phrase_char = cv.index(phrase)
         cv_words = cv.split()
@@ -36,7 +44,9 @@ class InputExtractor:
         ret_list= []
         ret_list.append(' '.join(cv_words[start:finish]))
         return ret_list, index_phrase_char+len(phrase)
-
+    '''
+    Extracts context for each noun phrase and returns list of contexts
+    '''
     def contextExtraction(self, noun_phrases, cv, n):
         ret_list = []
         last = 0
@@ -46,7 +56,9 @@ class InputExtractor:
             ret_list += result
             
         return ret_list
-
+    '''
+    Extracts noun phrases and context of phrases for given text(CV)
+    '''
     def extract(self, cv):
         noun_phrases = self.npExtraction(cv)
         context = self.contextExtraction(noun_phrases ,cv ,self.context_n)

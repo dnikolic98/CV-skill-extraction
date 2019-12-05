@@ -1,5 +1,12 @@
 from tensorflow import keras
+'''
+Neural network used for extracting skills from CVs.
 
+Model consists of three input layers:
+    First (lstm) takes variable length vector of arbitrary number of words (phrase).
+    Second (lstm) takes context of a phrase. Variable length vector of a phrase and n-words to the right and left of a phrase.
+    Third (dense) takes fixed size vector representing presence or absence of binary features
+'''
 class SkillsExtractorNN:
 
     def __init__(self, word_features_dim, dense_features_dim):
