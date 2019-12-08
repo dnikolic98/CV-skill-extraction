@@ -1,4 +1,6 @@
 from tensorflow import keras
+import numpy as np
+
 '''
 Neural network used for extracting skills from CVs.
 
@@ -37,7 +39,7 @@ class SkillsExtractorNN:
 
         self.model.compile(optimizer=optimizer, loss='binary_crossentropy')
 
-    def onehot_transform(y):
+    def onehot_transform(self, y):
         onehot_y = []
 
         for numb in y:
@@ -52,13 +54,15 @@ class SkillsExtractorNN:
 
         x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase)
         x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context)
+        print(x_lstm_phrase_seq.shape)
+        print(x_lstm_context_seq.shape)
 
-        y_onehot = onehot_transform(y)
+        y_onehot = self.onehot_transform(y)
 
         self.model.fit([x_lstm_phrase_seq, x_lstm_context_seq, x_dense],
                        y_onehot,
                        batch_size=batch_size,
-                       pochs=max_epochs,
+                       epochs=max_epochs,
                        validation_split=val_split,
                        callbacks=[keras.callbacks.EarlyStopping(monitor='val_loss', patience=patience)])
 
