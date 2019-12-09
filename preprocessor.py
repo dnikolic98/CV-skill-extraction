@@ -16,10 +16,10 @@ class Preprocessor():
     '''
     def concat(self, phrase):
         phrase = phrase.split()
-        ret_array = self.glove.vec(phrase[0])
+        ret_array = np.reshape(self.glove.vec(phrase[0]), (1,-1))
         if len(phrase)>1:
             for word in phrase[1:]:
-                ret_array = np.concatenate((ret_array, self.glove.vec(word)))
+                ret_array = np.vstack([ret_array, self.glove.vec(word)])
         return ret_array
 
     '''
@@ -41,5 +41,5 @@ class Preprocessor():
                 else:
                     y.append(0)
         if skills != False:
-            return phrases_vec, context_vec, phr_cox_vec, y
-        return phrases_vec, context_vec, phr_cox_vec
+            return np.array(phrases_vec), np.array(context_vec), np.array(phr_cox_vec), np.array(y)
+        return np.array(phrases_vec), np.array(context_vec), np.array(phr_cox_vec)

@@ -41,7 +41,6 @@ class SkillsExtractorNN:
 
     def onehot_transform(self, y):
         onehot_y = []
-
         for numb in y:
             onehot_arr = np.zeros(2)
             onehot_arr[numb] = 1
@@ -54,8 +53,6 @@ class SkillsExtractorNN:
 
         x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase)
         x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context)
-        print(x_lstm_phrase_seq.shape)
-        print(x_lstm_context_seq.shape)
 
         y_onehot = self.onehot_transform(y)
 
