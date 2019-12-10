@@ -2,6 +2,4 @@
 - dodati sve moguće binarne značajke u feature vector (tematska provjera, provjera vokabulara, tematska provjera...)
 -- Izvuci potrebne informacije s interneta
 - prepraviti inputExtractor da vrati i označene riječi
-- prepraviti preprocessor da vraća pravilnu veličinu vektora i vektore zadane u zadatku (n_redaka = n rijeci, n_stupaca = features (uvijek iste velicine))
-- pokušati integrirat
 
