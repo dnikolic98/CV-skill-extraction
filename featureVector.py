@@ -11,7 +11,7 @@ class FeatureVector:
     def __init__(self):
         self.glove = Glove()
         self.initThemes()
-        
+        self.initPreSuf()
         
     def features(self, word):
         vector = []
@@ -29,6 +29,7 @@ class FeatureVector:
     def vectorise(self, word):
         vector = self.features(word)
         vector = np.concatenate((vector,self.thematicVector(word)))
+        vector = np.concatenate((vector,self.preSufVector(word)))
         vector = np.concatenate((vector,self.glove.vec(word)))
         return vector
 
@@ -37,8 +38,8 @@ class FeatureVector:
         vector = []
         
         #thematic word lists
-        for column in self.df:
-            if word in self.df[column].values:
+        for column in self.df_themes:
+            if word in self.df_themes[column].values:
                 vector.append(1)
             else:
                 vector.append(0)
@@ -50,6 +51,20 @@ class FeatureVector:
             vector.append(0)
             
         return np.asarray(vector)
+
+    def preSufVector(self,word):
+        vector = np.zeros(self.pre_vector_size + self.suf_vector_size)
+        
+        for index, row in self.df_prefix.iterrows():
+            if(word.startswith(row[0])):
+                vector[index] = 1
+                break
+            
+        for index, row in self.df_suffix.iterrows():
+            if(word.startswith(row[0])):
+                vector[index + self.pre_vector_size] = 1
+                break
+        return vector
     
     def dim(self):
         return len(self.vectorise("test"))
@@ -61,7 +76,15 @@ class FeatureVector:
             file_path = path + str(i) + ".csv"
             df_temp = pd.read_csv(file_path, header = 0, encoding='latin-1')
             df = pd.merge(df,df_temp, right_index=True, left_index=True, how="outer")
-        self.df = df.replace(np.nan, '', regex=True)
+        self.df_themes = df.replace(np.nan, '', regex=True)
 
-fv = FeatureVector()
-x = fv.vectorise("test")
+    def initPreSuf(self):
+        path = "dataset/pre_suf/"
+        pre_file_path = path + "prefix.csv"
+        suf_file_path = path + "suffix.csv"
+
+        self.df_prefix = pd.read_csv(pre_file_path, header = 0, encoding='latin-1').sort_values(by='prefix', ascending=False)
+        self.df_suffix = pd.read_csv(suf_file_path, header = 0, encoding='latin-1').sort_values(by='suffix', ascending=False)
+        self.pre_vector_size = self.df_prefix.size
+        self.suf_vector_size = self.df_suffix.size
+

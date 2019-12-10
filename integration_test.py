@@ -18,6 +18,6 @@ skills = ["software", "EngiNEer"]
 phrases, context = in_extractor.extract(sentence)
 
 phr_vec, cox_vec, phr_cox_vec, y = pp.preprocess(phrases,context, skills)
-#clf.fit(phr_vec,cox_vec, phr_cox_vec, y)
+clf.fit(phr_vec,cox_vec, phr_cox_vec, y)
 
 print(y)

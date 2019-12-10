@@ -1,5 +1,6 @@
-- dataset/skill.csv treba srediti da budu samo vjestine odvojene jednim razmakom
-- dodati sve moguće binarne značajke u feature vector (tematska provjera, provjera vokabulara, tematska provjera...)
--- Izvuci potrebne informacije s interneta
+- dataset/skill.csv treba srediti da budu samo vjestine odvojene zarezom i jednim razmakom
+
 - prepraviti inputExtractor da vrati i označene riječi
+-- dodati binarne značajke po principu one hot kodiranja u feature vector
+
 
