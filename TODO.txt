@@ -2,5 +2,8 @@
 
 - prepraviti inputExtractor da vrati i označene riječi
 -- dodati binarne značajke po principu one hot kodiranja u feature vector
+---za sada nltk vrati tagane tuple, smisliti kako najbezbolnije rijesiti problem
+
+- mehanizam za urediti ulazne cv-e da ostale komponente mogu raditi
 
 

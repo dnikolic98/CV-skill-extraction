@@ -15,10 +15,13 @@ class InputExtractor:
     '''
     def npExtraction(self, cv):
         tagged = self.rexParser.parse(nltk.pos_tag(nltk.word_tokenize(cv)))
-        ret_list = []
+        ret_np = []
+        
         for tree in tagged.subtrees(filter=lambda t: t.label() == 'NP'):
-            ret_list.append(' '.join([child[0] for child in tree.leaves()]))
-        return ret_list
+            ret_np.append(' '.join([child[0] for child in tree.leaves()]))
+        for tree in tagged.subtrees(filter=lambda t: t.label() == 'S'):
+            ret_tag = tree.leaves()
+        return ret_np, ret_tag
     
     '''
     For given phrase extracts n-words from left and right.
@@ -44,6 +47,7 @@ class InputExtractor:
         ret_list= []
         ret_list.append(' '.join(cv_words[start:finish]))
         return ret_list, index_phrase_char+len(phrase)
+    
     '''
     Extracts context for each noun phrase and returns list of contexts
     '''
@@ -56,12 +60,12 @@ class InputExtractor:
             ret_list += result
             
         return ret_list
+    
     '''
     Extracts noun phrases and context of phrases for given text(CV)
     '''
     def extract(self, cv):
-        noun_phrases = self.npExtraction(cv)
+        noun_phrases, tagged = self.npExtraction(cv)
         context = self.contextExtraction(noun_phrases ,cv ,self.context_n)
         return noun_phrases, context
-
 
