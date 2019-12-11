@@ -17,12 +17,12 @@ class Preprocessor():
     '''
     Transforms words into vectors using FeatureVector and stacks vectors into matrix
     '''
-    def concat(self, phrase):
+    def concat(self, phrase, tags):
         phrase = phrase.split()
-        ret_array = np.reshape(self.featureVector.vectorise(phrase[0]), (1,-1))
+        ret_array = np.reshape(self.featureVector.vectorise(phrase[0], tags[0]), (1,-1))
         if len(phrase)>1:
-            for word in phrase[1:]:
-                ret_array = np.vstack([ret_array, self.featureVector.vectorise(word)])
+            for i in range(len(phrase)):
+                ret_array = np.vstack([ret_array, self.featureVector.vectorise(phrase[i], tags[i])])
         return ret_array
     
     '''
@@ -37,7 +37,7 @@ class Preprocessor():
     '''
     Main logic that for phrases, context and/or skills returns vector values.
     '''
-    def preprocess(self, noun_phrases, context, skills=False):
+    def preprocess(self, noun_phrases, context, np_tags, context_tags, skills=False):
         phrases_vec = []
         context_vec = []
         phr_cox_vec = []
@@ -47,9 +47,9 @@ class Preprocessor():
             skills = [x.lower() for x in skills]
             
         for i in range(len(noun_phrases)):
-            current_phrase_vec = self.concat(noun_phrases[i])
+            current_phrase_vec = self.concat(noun_phrases[i], np_tags[i])
             phrases_vec.append(current_phrase_vec)
-            current_context_vec = self.concat(context[i])
+            current_context_vec = self.concat(context[i], context_tags[i])
             context_vec.append(current_context_vec)
             phr_cox_vec.append(self.minMaxVector(current_phrase_vec, current_context_vec))
             if skills != False:

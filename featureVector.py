@@ -12,6 +12,7 @@ class FeatureVector:
         self.glove = Glove()
         self.initThemes()
         self.initPreSuf()
+        self.initPos()
         
     def features(self, word):
         vector = []
@@ -26,10 +27,11 @@ class FeatureVector:
 
     
 
-    def vectorise(self, word):
+    def vectorise(self, word, tag):
         vector = self.features(word)
         vector = np.concatenate((vector,self.thematicVector(word)))
         vector = np.concatenate((vector,self.preSufVector(word)))
+        vector = np.concatenate((vector,self.posVector(tag)))
         vector = np.concatenate((vector,self.glove.vec(word)))
         return vector
 
@@ -52,6 +54,14 @@ class FeatureVector:
             
         return np.asarray(vector)
 
+    def posVector(self,tag):
+        vector = np.zeros(self.pos_vector_size)
+        for index, row in self.df_pos.iterrows():
+            if(tag == row[0]):
+                vector[index] = 1
+                break
+        return vector
+
     def preSufVector(self,word):
         vector = np.zeros(self.pre_vector_size + self.suf_vector_size)
         
@@ -67,7 +77,7 @@ class FeatureVector:
         return vector
     
     def dim(self):
-        return len(self.vectorise("test"))
+        return len(self.vectorise("test", "NN"))
 
     def initThemes(self):
         path = "dataset/theme_words/"
@@ -88,3 +98,8 @@ class FeatureVector:
         self.pre_vector_size = self.df_prefix.size
         self.suf_vector_size = self.df_suffix.size
 
+    def initPos(self):
+        path = "dataset/pos/"
+        pre_file_path = path + "POStag.csv"
+        self.df_pos = pd.read_csv(pre_file_path, header = 0, encoding='latin-1')
+        self.pos_vector_size = self.df_pos.size

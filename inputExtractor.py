@@ -20,7 +20,7 @@ class InputExtractor:
         for tree in tagged.subtrees(filter=lambda t: t.label() == 'NP'):
             ret_np.append(' '.join([child[0] for child in tree.leaves()]))
         for tree in tagged.subtrees(filter=lambda t: t.label() == 'S'):
-            ret_tag = tree.leaves()
+            ret_tag = [child[1] for child in tree.leaves()]
         return ret_np, ret_tag
     
     '''
@@ -28,44 +28,53 @@ class InputExtractor:
     Returns list of context (single string) and
     int representing index of last given phrase
     '''
-    def contextExtractionSingle(self, phrase, cv, n):
+    def contextExtractionSingle(self, phrase, cv, n, tags):
         index_phrase_char = cv.index(phrase)
         cv_words = cv.split()
         index_phrase = 0
+        tags = tags[-len(cv_words):]
         x=0
-        
         while(x<index_phrase_char):
             x += len(cv_words[index_phrase])+1
             index_phrase +=1
-            
+        
+        
         start = index_phrase - n
         finish = index_phrase + len(phrase.split()) + n
         if start < 0:
             start = 0
         if finish > (len(cv_words)-1):
             finish = len(cv_words)
-        ret_list= []
-        ret_list.append(' '.join(cv_words[start:finish]))
-        return ret_list, index_phrase_char+len(phrase)
+        ret_context= []
+        ret_np_tag = []
+        ret_cox_tag = []
+        ret_context.append(' '.join(cv_words[start:finish]))
+        ret_np_tag.append(' '.join(tags[index_phrase:index_phrase + len(phrase.split())]))
+        ret_cox_tag.append(' '.join(tags[start:finish]))
+        
+        return ret_context, ret_np_tag, ret_cox_tag, index_phrase_char+len(phrase)+1, len(cv_words)
     
     '''
     Extracts context for each noun phrase and returns list of contexts
     '''
-    def contextExtraction(self, noun_phrases, cv, n):
-        ret_list = []
+    def contextExtraction(self, noun_phrases, cv, n, tags):
+        context_list = []
+        np_tags = []
+        cox_tags = []
         last = 0
         for phrase in noun_phrases:
-            result, x = self.contextExtractionSingle(phrase,cv[last:],n)
+            single_context, np_tag, cox_tag, x, cv_words = self.contextExtractionSingle(phrase,cv[last:], n, tags)
             last += x
-            ret_list += result
-            
-        return ret_list
+            context_list += single_context
+            np_tags += np_tag
+            cox_tags += cox_tag
+        return context_list, np_tags, cox_tags
     
     '''
     Extracts noun phrases and context of phrases for given text(CV)
     '''
     def extract(self, cv):
         noun_phrases, tagged = self.npExtraction(cv)
-        context = self.contextExtraction(noun_phrases ,cv ,self.context_n)
-        return noun_phrases, context
-
+        context, np_tags, cox_tags = self.contextExtraction(noun_phrases ,cv ,self.context_n, tagged)
+        return noun_phrases, context, np_tags, cox_tags
+    

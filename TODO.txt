@@ -1,9 +1,9 @@
 - dataset/skill.csv treba srediti da budu samo vjestine odvojene zarezom i jednim razmakom
 
-- prepraviti inputExtractor da vrati i označene riječi
--- dodati binarne značajke po principu one hot kodiranja u feature vector
----za sada nltk vrati tagane tuple, smisliti kako najbezbolnije rijesiti problem
-
 - mehanizam za urediti ulazne cv-e da ostale komponente mogu raditi
 
+-? poboljsati nalazak konteksta(trenutno se izgubi sve do vec odradene fraze)
 
+- dodati score u NN
+
+- azurirat komentare koda

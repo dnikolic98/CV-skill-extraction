@@ -15,9 +15,9 @@ clf = SkillsExtractorNN(word_features_dim, dense_features_dim)#(x,y) x=duzina je
 sentence = 'Software engineer on an educational game for schoolers The game was based on the story of Tom Sawyer The game was developed on Delphi and Java'
 skills = ["software", "EngiNEer"]
 
-phrases, context = in_extractor.extract(sentence)
+phrases, context, np_tags, context_tags = in_extractor.extract(sentence)
 
-phr_vec, cox_vec, phr_cox_vec, y = pp.preprocess(phrases,context, skills)
+phr_vec, cox_vec, phr_cox_vec, y = pp.preprocess(phrases,context, np_tags, context_tags, skills)
 clf.fit(phr_vec,cox_vec, phr_cox_vec, y)
 
 print(y)
