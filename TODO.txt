@@ -7,3 +7,6 @@
 - dodati score u NN
 
 - azurirat komentare koda
+
+- u pp vracati liste
+

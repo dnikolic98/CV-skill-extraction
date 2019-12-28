@@ -59,5 +59,5 @@ class Preprocessor():
                     y.append(0)
 
         if skills != False:
-            return np.array(phrases_vec), np.array(context_vec), np.array(phr_cox_vec), np.array(y)
-        return np.array(phrases_vec), np.array(context_vec), np.array(phr_cox_vec)
+            return phrases_vec, context_vec, phr_cox_vec, y
+        return phrases_vec, context_vec, phr_cox_vec

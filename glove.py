@@ -14,4 +14,8 @@ class Glove:
     '''
     def vec(self, w):
         w = w.lower()
-        return self.words.loc[w].to_numpy()
+        try:
+            ret = self.words.loc[w].to_numpy()
+        except:
+            ret = np.full((50,), 9999)
+        return ret
