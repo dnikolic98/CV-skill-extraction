@@ -37,7 +37,7 @@ class SkillsExtractorNN:
 
         optimizer = keras.optimizers.Adam(lr=0.0001)
 
-        self.model.compile(optimizer=optimizer, loss='binary_crossentropy')
+        self.model.compile(optimizer=optimizer, loss='binary_crossentropy', metrics=['accuracy'])
 
     def onehot_transform(self, y):
         onehot_y = []
@@ -51,25 +51,49 @@ class SkillsExtractorNN:
     def fit(self, x_lstm_phrase, x_lstm_context, x_dense, y,
             val_split=0.25, patience=5, max_epochs=1000, batch_size=32):
 
-        x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase)
-        x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context)
+        x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase, dtype=np.float32)
+        x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context, dtype=np.float32)
+        #print(x_lstm_phrase_seq.shape,x_lstm_context_seq.shape)
 
         y_onehot = self.onehot_transform(y)
 
-        self.model.fit([x_lstm_phrase_seq, x_lstm_context_seq, x_dense],
+        return self.model.fit([x_lstm_phrase_seq, x_lstm_context_seq, x_dense],
                        y_onehot,
                        batch_size=batch_size,
                        epochs=max_epochs,
                        validation_split=val_split,
                        callbacks=[keras.callbacks.EarlyStopping(monitor='val_loss', patience=patience)])
 
+    def evaluate(self, x_lstm_phrase, x_lstm_context, x_dense, y):
+        x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase, dtype=np.float32)
+        x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context, dtype=np.float32)
 
+        y_onehot = self.onehot_transform(y)
+
+        return self.model.evaluate([x_lstm_phrase_seq, x_lstm_context_seq, x_dense], y_onehot, verbose=0)
+        
     def predict(self, x_lstm_phrase, x_lstm_context, x_dense):
-
-        x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase)
-        x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context)
-
+        x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase, dtype=np.float32)
+        x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context, dtype=np.float32)
+        
+        #print(x_lstm_phrase_seq.shape,x_lstm_context_seq.shape)
+        
         y = self.model.predict([x_lstm_phrase_seq, x_lstm_context_seq, x_dense])
-
         return y
 
+    def load(self, path):
+        self.model.load_weights(path)
+        print("Loaded model from disk")
+
+    def score(self, x_lstm_phrase, x_lstm_context, x_dense, Y):
+        hit = 0
+        
+        x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase, dtype=np.float32)
+        x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context, dtype=np.float32)
+        
+        y = self.model.predict([x_lstm_phrase_seq, x_lstm_context_seq, x_dense])
+        
+        for i in range(len(Y)):
+            if(np.argmax(y[i]) == Y[i]):
+                hit += 1
+        return hit/len(Y)
