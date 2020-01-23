@@ -5,7 +5,7 @@ class InputExtractor:
     def __init__(self, context_n=3):
         self.grammar = r"""
             NP: {<DT|PP\$>?<JJ>*<NN>}   # chunk determiner/possessive, adjectives and noun
-                {<NNP>+}        # chunk sequences of proper nouns
+                {<NNP>}        # chunk sequences of proper nouns
         """
         self.rexParser = nltk.RegexpParser(self.grammar)
         self.context_n = context_n

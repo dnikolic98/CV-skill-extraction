@@ -83,7 +83,7 @@ class SkillsExtractorNN:
 
     def load(self, path):
         self.model.load_weights(path)
-        print("Loaded model from disk")
+        #print("Loaded model from disk")
 
     def score(self, x_lstm_phrase, x_lstm_context, x_dense, Y):
         hit = 0

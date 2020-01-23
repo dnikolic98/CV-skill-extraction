@@ -1,0 +1,46 @@
+Gaurav Soni
+New Delhi, Delhi - Email me on Indeed: indeed.com/r/Gaurav-Soni/d492b5b1697f7f66
+
+WORK EXPERIENCE
+
+Software Developer
+
+ION Trading -
+
+June 2016 to Present
+
+As part of ION Trading, I have been working as a core product developer on a Repurchase
+Agreements(REPO) Trading Solution, called Anvil 9 Trading Solution. Currently I am working on
+Order Management System, which is a component/service that enable the traders to capture
+orders from emails and chats. I have also worked on Apache CoreNLP to leverage its Named
+Entity Recognition feature to extracting business keywords from a given text.
+
+Intern
+
+Microsoft -  Hyderabad, Telangana -
+
+June 2015 to August 2015
+
+I was part of the Microsoft Service Global Delivery Internship for two months in Hyderabad. On
+my internship, I got an opportunity to develop a Windows 10 application.
+
+EDUCATION
+
+B.Tech(Computer Science) in CSE
+
+GGSIPU
+
+2012 to 2016
+
+SKILLS
+
+C# (Less than 1 year), Java, OOPs, Guice, Microservice architecture, Software Development,
+XAML, ATDD, SOLID, SOA, Scrum, Robot Framework, TDD
+
+ADDITIONAL INFORMATION
+
+Skills: JAVA, C#, WPF, XAML, Robot Framework, Scrum, Guice, ATDD, SOA, Fixed Income, CoreNLP,
+SOLID
+programming, OOPs, NLP, Microservice architecture.
+
+https://www.indeed.com/r/Gaurav-Soni/d492b5b1697f7f66?isid=rex-download&ikw=download-top&co=IN
