@@ -12,12 +12,10 @@ tf = TextFormater()
 word_features_dim, dense_features_dim = pp.getDim()
 clf = SkillsExtractorNN(word_features_dim, dense_features_dim)
 
-path = "saved/model(0_9722222).h5"
+path = "saved/model(0_9711111).h5"
 clf.load(path)
 
-s1 = 'Software engineer on an educational game for schoolers The game was based on the story of Tom Sawyer The game was developed on Delphi and Java'
-
-#insert cv
+#prepare cv and return predictions
 cv = open('predict.txt', 'r').read()
 cv = tf.format(cv)
 phrases, context, np_tags, context_tags = in_extractor.extract(cv)

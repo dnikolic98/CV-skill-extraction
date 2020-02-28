@@ -14,10 +14,6 @@ tf = TextFormater()
 word_features_dim, dense_features_dim = pp.getDim()
 clf = SkillsExtractorNN(word_features_dim, dense_features_dim)
 
-#df_skills = pd.read_csv("dataset/training/skills3.csv")
-#df_cv = pd.read_csv("dataset/training/cv.csv")
-#df = pd.merge(df_cv,df_skills, right_index=True, left_index=True, how="outer")
-
 df = pd.read_excel("dataset/training/resumes.xlsx", sheet_name=0)
 df = df.replace(np.nan, '', regex=True)
 
@@ -25,7 +21,7 @@ every_phrase_vec = []
 every_context_vec = []
 every_phr_cox_vec = []
 every_y = []
-'''
+
 for index, row in df.iterrows():
     cv = tf.format(row[0])
     phrases, context, np_tags, context_tags = in_extractor.extract(cv)
@@ -34,18 +30,6 @@ for index, row in df.iterrows():
     every_context_vec += cox_vec
     every_phr_cox_vec += phr_cox_vec
     every_y += y
-'''
-for index, row in islice(df.iterrows(), 0, 10):
-    cv = tf.format(row[0])
-    phrases, context, np_tags, context_tags = in_extractor.extract(cv)
-    phr_vec, cox_vec, phr_cox_vec, y = pp.preprocess(phrases,context, np_tags, context_tags, row[1].strip().split("|"))
-    every_phrase_vec += phr_vec
-    every_context_vec += cox_vec
-    every_phr_cox_vec += phr_cox_vec
-    every_y += y
-    print(cv)
-    print(phrases)
-    print(row[1].strip().split("|"))
 
 hist = clf.fit(np.array(every_phrase_vec), np.array(every_context_vec), np.array(every_phr_cox_vec), np.array(every_y))
 acc = hist.history['accuracy'][-1]
@@ -56,19 +40,3 @@ with open("saved/model(" + str(acc).replace(".", "_") + ").json", "w") as json_f
     json_file.write(model_json)
 clf.model.save_weights("saved/model(" + str(acc).replace(".", "_") + ").h5")
 print("Saved model to disk")
-
-
-for index, row in islice(df.iterrows(), 10, 20):
-    cv = tf.format(row[0])
-    phrases, context, np_tags, context_tags = in_extractor.extract(cv)
-    phr_vec, cox_vec, phr_cox_vec, y = pp.preprocess(phrases,context, np_tags, context_tags, row[1].strip().split("|"))
-    every_phrase_vec += phr_vec
-    every_context_vec += cox_vec
-    every_phr_cox_vec += phr_cox_vec
-    every_y += y
-    print(cv)
-    print(phrases)
-    print(row[1].strip().split("|"))
-
-score = clf.score(np.array(every_phrase_vec), np.array(every_context_vec), np.array(every_phr_cox_vec), np.array(every_y))
-print(score)

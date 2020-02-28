@@ -20,7 +20,6 @@ class InputExtractor:
         for tree in tagged.subtrees(filter=lambda t: t.label() == 'NP'):
             ret_np.append(' '.join([child[0] for child in tree.leaves()]))
         for tree in tagged.subtrees(filter=lambda t: t.label() == 'S'):
-            #print(tree.leaves())
             ret_tag = [child[1] for child in tree.leaves()]
         return ret_np, ret_tag
     
@@ -30,21 +29,15 @@ class InputExtractor:
     int representing index of last given phrase
     '''
     def contextExtractionSingle(self, phrase, cv, n, tags):
-        #print(phrase)
         index_phrase_char = cv.index(phrase)
         cv_words = cv.split()
-        #print(len(cv_words))
-        #print(cv_words)
         index_phrase = 0
-        #print(len(tags))
-        #print(tags)
     
         tags = tags[-len(cv_words):]
         x=0
         while(x<index_phrase_char):
             x += len(cv_words[index_phrase])+1
             index_phrase +=1
-            #print(cv_words[index_phrase])
         
         start = index_phrase - n
         finish = index_phrase + len(phrase.split()) + n

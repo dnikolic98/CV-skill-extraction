@@ -53,7 +53,6 @@ class SkillsExtractorNN:
 
         x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase, dtype=np.float32)
         x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context, dtype=np.float32)
-        #print(x_lstm_phrase_seq.shape,x_lstm_context_seq.shape)
 
         y_onehot = self.onehot_transform(y)
 
@@ -75,8 +74,6 @@ class SkillsExtractorNN:
     def predict(self, x_lstm_phrase, x_lstm_context, x_dense):
         x_lstm_phrase_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_phrase, dtype=np.float32)
         x_lstm_context_seq = keras.preprocessing.sequence.pad_sequences(x_lstm_context, dtype=np.float32)
-        
-        #print(x_lstm_phrase_seq.shape,x_lstm_context_seq.shape)
         
         y = self.model.predict([x_lstm_phrase_seq, x_lstm_context_seq, x_dense])
         return y

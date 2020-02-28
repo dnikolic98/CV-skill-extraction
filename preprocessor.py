@@ -35,7 +35,7 @@ class Preprocessor():
         return vector
 
     '''
-    Main logic that for phrases, context and/or skills returns vector values.
+    Main logic that for phrases, context and/or skills returns its vector values.
     '''
     def preprocess(self, noun_phrases, context, np_tags, context_tags, skills=False):
         phrases_vec = []
