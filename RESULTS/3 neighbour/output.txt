@@ -1,0 +1,343 @@
+Epoch 1/1000
+765/765 [==============================] - 101s 132ms/step - loss: 0.5635 - accuracy: 0.9454 - val_loss: 0.3038 - val_accuracy: 0.9695
+
+Epoch 3/1000
+765/765 [==============================] - 101s 132ms/step - loss: 0.5606 - accuracy: 0.9460 - val_loss: 0.3104 - val_accuracy: 0.9695
+
+Epoch 4/1000
+765/765 [==============================] - 100s 131ms/step - loss: 0.5588 - accuracy: 0.9468 - val_loss: 0.3060 - val_accuracy: 0.9685
+
+Epoch 5/1000
+765/765 [==============================] - 101s 131ms/step - loss: 0.5528 - accuracy: 0.9487 - val_loss: 0.3212 - val_accuracy: 0.9692
+
+Epoch 6/1000
+765/765 [==============================] - 109s 143ms/step - loss: 0.5497 - accuracy: 0.9508 - val_loss: 0.3276 - val_accuracy: 0.9692
+
+Epoch 7/1000
+765/765 [==============================] - 102s 133ms/step - loss: 0.5451 - accuracy: 0.9510 - val_loss: 0.3109 - val_accuracy: 0.9687
+
+120
+SKILLS: Windows Unix TFS VSTS VB ASP VB.net C# JavaScript Jquery Angular JS CRM HTML .Net MVC WCF SQL Server Oracle Metalogix Sharegate PowerShell VSTS
+PREDICTED POSITIVE: ASP SQL
+PREDICTED NEGATIVE: Suresh Kanagala Architecture SharePoint Office Azure Net Hyderabad Telangana Email Kanagala/bfdeeb position WORK EXPERIENCE Technical Architect Manager C August Present Senior Professional Technology Analyst CSC India September August Consultant IBM December September Consultant Infosys Modus -Tester June December Associate consultant CMC July June EDUCATION Month Year Format Tech lead Hyderabad Telangana September May M C A affiliated college Andhra University Maths Physics Computers Nagarjuna university SKILLS NET Less year Less year DATABASE Less year MS SQL SERVER Less year Less year LINKS ADDITIONAL INFORMATION Operating Windows Unix Configuration management TFS VSTS Programming Languages VB ASP C JavaScript Jquery Angular JS Starter CRM Frontend HTML Net Middleware MVC WCF Database SQL Server Oracle Content Migration Metalogix Sharegate Automation PowerShell VSTS DOMAIN EXPERIENCE Insurance Years Engineering Years Banking
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 108
+FALSE NEGATIVE: 17
+---------------------------------
+ACCURACY (moja bez true neg): 0.047619047619047616
+ACCURACY: 0.8384615384615385
+PRECISION: 0.5
+RECALL: 0.05555555555555555
+F1: 0.09999999999999999
+
+121
+SKILLS: OS Windows XP Vista Microsoft word/excel/power point Basic computer skills Tally
+PREDICTED POSITIVE: 
+PREDICTED NEGATIVE: Jaspreet Kaur Oceanic Consultants HR Executive Faridabad Haryana Email worth employee organization progress WORK EXPERIENCE Oceanic Consultants HR Executive Oceanic Pvt Ltd Chandigarh Chandigarh June January Oceanic successful international student recruitment world today The company Melbourne Australia company India Key Responsibilities Recruitment Identify vacancy Advertising vacancy Internal amp External Managing response Resume Arranging Phone round FF round Short listing candidate Conducting Formalities Conduct Induction amp Orientation program New Joinee Prepare ICT creation login ID Configure system Request card Business card ESI PF Formalities Generate Offer Letter Maintain personal file new joinee Soft Retention Assessment new joinee Extension service Arrangements Relocation Arrangements Job Rotation Promotions Prepare Increment Arrangements Anniversary Wedding Festival Attendance Leave management Handle ESI PF Leaves Maintain Confirmations Increments Manage monthly manual attendance record Mark comp attendance rectification credit Time time change policy branch closure Holidays Promotions Transfers Employment check Update ascent Reporting change contact Employee engagement aEURC Salary amp Payroll Manage monthly attendance Notify department Full final settlement exit Prepare joinee salary bank account processing aEURC Full Final settlement Exit Check Manager deactivation system mailbox Deactivate System Exit Circulate email concern employee Gratuity PF withdrawal Experience letter Salary certificate HR Officer MAYA ESTATZ Zirakpur Punjab IN January May Maya Estatz Estate industry Punjab Himachal Haryana Chandigarh Panchkula Zirakpur amp Mohali Key Responsibilities Recruitment Manpower Planning amp Approvals Interviews documentation Selection Coordination Maintain up-to-date recruitment progress report RAG Joining Induction Designed Structured Programme Induction Manual process detail aEURC Joining time Verification previous company home new joiner Time Office Management Leave Attendance Record Maintenance Managing Reward amp Recognition Programme Event Management office employee Birthday amp Anniversary Christmas celebration Diwali Lohri Human Resource Administration * Stationary Management * Issuing ID Cards * First Aid Facility * Maintenance Ledger office Expenses * Issuing Official No record official * Coordination Vendors official work Keep record Exit Employees Dash board CV Candidates Updating daily basis aEURC Analysis Employee Turnover amp Calculation Attrition Rate HR Executive- SOLITAIRE INFOSYS SOLITAIRE INFOSYS PVT LTD Chandigarh Chandigarh January October high quality wide range HR aEURC Man Power Planning Analysing vacancy IT Department Recruitment amp Selection job job candidate appointment Letters Induction Programme Introduce company Providing Trainings New Employees company product Knowledge Maintenance Record Attendance Employee Welfare Organizing Parties Tours Formulation HR Policy attendance Customer Related Activities Maintaining Track Sale Activities Maintaining Track Payments Deliveries Customer Feedback Suggestions Ways Business Turnover customer EDUCATION Masters Business Administration Mohali Campus Mohali Punjab Bachelor Commerce Dev Samaj College Women Chandigarh Chandigarh Central Board Secondary education ADDITIONAL INFORMATION Technical Skills OS Windows XP Vista Others Microsoft word excel power point Basic computer Tally Internship experience Marketing HCL Infosystems Mohali Project CASE STUDY AND SCOPE OF ENTERPRISE RESOURCE PLANNING ERP APPLICATION IN EDUCATION DOMAIN IN PUNJAB
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 431
+FALSE NEGATIVE: 2
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9885321100917431
+PRECISION: 0
+RECALL: 0.0
+F1: 0
+
+122
+SKILLS: Oracle Pl/Sql Facets Hadoop Informatica Unix Windows Unix Scripting SQL PL/SQL Core Java Python Informatica Power Center Oracle Hadoop Spark SVN Jira Tidal Control-M Microsoft Azure
+PREDICTED POSITIVE: Hadoop
+PREDICTED NEGATIVE: Somanath Behera Associate Cognizant technology Solutions Bangalore Bengaluru Karnataka Email extensive experience Requirement Gathering Analysis Design Development Implementation Testing Support Data Warehousing Applications Informatica Power center ETL Tool Expertise analysis business process Quality Assurance communication Data Warehouse Quickly adaptable new technology coding software industry professionalism team experience POC Delivered Quality every situation Anywhere WORK EXPERIENCE Associate Consultant Cognizant Technology Solutions Bengaluru Karnataka July Present Have experience end end development Informatica Unix Oracle Effectively small team Senior System Engineer Infosys Limited Chennai Training Infosys Limited Mysore Karnataka August November Mysore st Aug Nov Senior System Engineer Infosys Limited Chennai till th June Cognizant th July till date EDUCATION B Tech Electronics telecommunication BPUT Bhubaneshwar Orissa August April + Science Science F M Junior College Balasore Orissa June April SKILLS Oracle Pl Sql year healthcare Informatica ADDITIONAL INFORMATION Technical Skills Operating System Unix Windows Programming Unix Scripting SQL PL SQL Core Java Basics Python Databases Tools Informatica Power Center Oracle Hadoop Spark SVN Jira Scheduling Tools Tidal Control-M Cloud Technology Microsoft Azure Domain Knowledge Retail Healthcare Banking Functional Knowledge good functional knowledge Healthcare Facets application relationship
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 155
+FALSE NEGATIVE: 21
+---------------------------------
+ACCURACY (moja bez true neg): 0.05263157894736842
+ACCURACY: 0.896551724137931
+PRECISION: 1.0
+RECALL: 0.045454545454545456
+F1: 0.08695652173913045
+
+123
+SKILLS: Java SQL JEE Sping Hibernate JavaScript HTML CSS
+PREDICTED POSITIVE: Java Sping Hibernate JavaScript
+PREDICTED NEGATIVE: Indoriya Sr Systems Engineer Infosys Limited Hyderabad Telangana Email Indoriya/fcebebe aEURC Master Computer Application MCA Bhilai Institute Technology Durg Having Experience Software Development Infosys experience Java Spring Hibernate SQL aEURC Knowledge design Singleton Factory FaASSade Observer MVC Knowledge Front-end web development JavaScript JQuery CSS amp HTML Having knowledge Oracle SQL Database Reliable responsible accountable member task project creative logical analytical approach aEURC HRMS transfer termination QA process aEURC Hands knowledge C C++ Dynamic Memory Management aEURC Learning Hadoop Big analysis Apache pig hive map Learning Scala Spark Big Data analysis relocate Telangana WORK EXPERIENCE Sr Systems Engineer Infosys Limited Fidelity Investments March February Roles amp Responsibilities Description HRMS customization Java programming language Spring SQL JavaScript A web complex application manage HRMS critical information payroll Analysis interaction Functional Design Document Involved Technical Design Document aEURC Responsible implementing Business Logic Java Programming Language SQL pull HRMS Application database aEURC Automated HRMS transfer termination QA process Involved Zero Distance team help client manual work Excel Macro Tax Calculation automation Involved development java module invalid entry XML configuration file Infosys Internal Project Excel RDBMS load application An application load Excel Description Much legacy current information available excel organization application database availability accessibility organization aEURC Flexible application load Applied Industry Design Singleton Observer Strategy Responsible end end application Achievements Activities Achievement aEURC Awarded Memento client outstanding contribution client satisfaction Infy Insta Award outstanding contribution reliable team member aEURC IBM DB Academic Associate DB Database Application Fundamentals EDUCATION Secondary School Certificate Design Pattern Chhattisgarh Board Secondary Education Raipur Chhattisgarh August Master Computer Applications Computer Applications Bhilai Institute Technology Bhilai Chhattisgarh Bachelor Computer Applications Computer Applications C V Raman University Bilaspur Raman Punjab Secondary School Certificate Chhattisgarh Board Secondary Education Raipur Chhattisgarh SKILLS SQL JEE HTML CSS ADDITIONAL INFORMATION Serving notice period
+---------------------------------
+CORRECT POSITIVE: 4
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 261
+FALSE NEGATIVE: 16
+---------------------------------
+ACCURACY (moja bez true neg): 0.5
+ACCURACY: 0.9851301115241635
+PRECISION: 1.0
+RECALL: 0.2
+F1: 0.33333333333333337
+
+124
+SKILLS: C++ LINUX .NET VISUAL STUDIO JAVA C++(/) Java Python C JavaScript MATLAB SQL C# PHP Microsoft Visual Studio Eclipse gdb ddd TotalView Debugger Hoops DGS OpenGL IBM ClearCase GitHub vi editor JIRA Trello Board Valgrind Perforce LabVIEW Visio Enterprise Architect gedit Linux Windows Oracle Microsoft SQL Server IBM DB
+PREDICTED POSITIVE: Java C++ LINUX JAVA PHP
+PREDICTED NEGATIVE: Ajay Elango Software Engineer Bangalore City Karnataka Karnataka Email Elango/cadcf professional work experience Software Engineer core expertise C++ programming Linux Windows Offered graduate admission Computer Engineering world Georgia Tech Atlanta Carnegie Mellon University Pittsburgh Cornell University Ithaca University Southern California Los Angeles University Colorado Boulder Boulder Arizona State University Tempe University Illinois Chicago Chicago aEURC Masters Computer Engineering Georgia Institute Technology Atlanta aEURC Worked Software Engineer MathWorks Massachusetts Cadence Design Systems Massachusetts National Instruments Texas Infosys Bangalore Aeronautical Development Establishment Bangalore Certifications Stanford University California University Washington Seattle University California San Diego California aEURC Won client outstanding performance significant individual contribution Proven track record shipping secure high quality software software development life cycle Passionate large-scale software Experienced software development enterprise relocate Anywhere WORK EXPERIENCE Software Engineer May October core simulation visualization team earliest prestigious group organization owner Scope block significant block Simulink toolset aEURC suite interactive real-time world-class simulation visualization MATLAB Simulink essential part Simulink measure Implemented large scale software C++ JavaScript Java MATLAB Application Support Engineering UI Technical Marketing Performance Engineering visualization Scope Logic Analyzer Windows Linux performance Logic Analyzer % aEURC Enabled Logic Analyzer MATLAB online aEURC Involved feature estimation prioritization product team Languages amp Technologies C++ C JavaScript MATLAB Microsoft Visual Studio Perforce Gecko vi gedit gdb ddd Software Engineer Cadence Design Systems Inc January March Designed D Models PCB Allegro PCB Designer Allegro Package Designer Electronic Design Automation PCB design algorithms collision detection D D viewer aEURC support Allegro PCB Design Suite Allegro Package Designer Linux Windows Worked product engineering efficient successful handoff manufacturing aEURC sound engineering design process quality research design Allegro PCB Designer Allegro Package Designer Languages amp Technologies C++ QT GUI JIRA Trello board IBM Clearcase CCMS Cadet vi Valgrind gdb ddd TotalView Visual Studio Software Engineer Intern National Instruments Austin US May August Implemented boot image FPGA PXIe- LabVIEW aEURC Configured reference ADC DAC Automated entire configure onboard clock sequence Senior Systems Engineer Infosys Limited LabVIEW Perforce Trello Bengaluru Karnataka November June Bangalore India Nov June large scale software C++ Linux Windows platform framework test functionality firmware Mentored new experienced software software development enterprise related release Won client outstanding performance significant individual contribution aEURC business project development resource Consolidated low-level technical design client Analyzed remediation Reviewed requirement analysis feature Languages amp Technologies C C++ Siebel CRM JIRA gdb ddd Valgrind TotalView vi Intern Aeronautical Development Establishment Defense Research Bengaluru Karnataka December February Implemented IC protocol VHDL video encoder ADV / video decoder ADV video system Languages amp Technologies VHDL ModelSim EDUCATION Master Science Electrical Computer Engineering Georgia Institute Technology Atlanta GA August December Bachelor Technology Electronics Communication Engineering Amrita School Engineering Bengaluru Karnataka June May SKILLS NET VISUAL STUDIO year LINKS ADDITIONAL INFORMATION TECHNICAL SKILLS Programming Languages C++ / Java Python C JavaScript MATLAB SQL C Software Tools Microsoft Visual Studio Eclipse gdb ddd TotalView Debugger Hoops DGS OpenGL IBM ClearCase GitHub vi editor JIRA Trello Board Valgrind Perforce LabVIEW Visio Enterprise Architect gedit Systems Linux Windows Databases Oracle aEUR| Microsoft SQL Server IBM DB
+---------------------------------
+CORRECT POSITIVE: 5
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 411
+FALSE NEGATIVE: 65
+---------------------------------
+ACCURACY (moja bez true neg): 0.13157894736842105
+ACCURACY: 0.9265033407572383
+PRECISION: 1.0
+RECALL: 0.07142857142857142
+F1: 0.13333333333333333
+
+125
+SKILLS: HTML MS OFFICE Tally MS Office HTML TALLY
+PREDICTED POSITIVE: Cisco
+PREDICTED NEGATIVE: Shaik Tazuddin Senior Process Executive STAR India Bengaluru Karnataka Email honest employee organization growth organization WORK EXPERIENCE Senior Process Executive STAR India Bengaluru Karnataka November Present Senior Process Executive Cisco Client STAR EMEAR amp US Creating Dart ID appropriate pricing amp especial attention France Spain United Kingdom Italy Sweden Slovakia Israel Germany azC Reviewing quality Q flow Making report C-SAT presentation process business development azC Immediate action customer order meet quality % closure customer SLA adherence self-productivity quality issue Europe US quality team azC Overlap AM assignment azC SME team absence Manager OR Team Lead Work STAR- ANZ Star ANZ Cisco Australia New Zealand require deal purchase discount Star ANZ approval account account help CCW SFDC force etc STAR- INDIA Star India Deal request Cisco E-mail Chat Phone Senior process executive Infosys bpm Infosys BPM Bangalore Rural Karnataka November Present Deal management November October EDUCATION C A S V University Tirupati Andhra Pradesh Education A P Margadarshi Junior College SSC Board Secondary Education SKILLS HTML Less year MS OFFICE Less year Less year ADDITIONAL INFORMATION COMPUTER SKILLS Packages MS Office HTML TALLY PERSONAL STRENGTHS Dedication Quick learner self Communication Skills Personality Positive attitude azC spend time
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 188
+FALSE NEGATIVE: 3
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9690721649484536
+PRECISION: 0.0
+RECALL: 0.0
+F1: 0
+
+126
+SKILLS: active directory DHCP DNS Hardware troubleshooting Windows Server Windows server Active Directory DNS DHCP Management User Management Management of Permissions File System Management Hardware/Software Installation Hardware troubleshooting Windows XP Window Window Window Hardware/Software Installation File System Management Hardware troubleshooting
+PREDICTED POSITIVE: Windows DHCP
+PREDICTED NEGATIVE: Angad Waghmare Pune Maharashtra Email azC Total month Experience multiple IT field Hardware Desktop Engineer azC Microsoft Certified Professional Managing Maintaining Microsoft Windows Server Environment aEUR| azC Installation Server Client infrastructure azC Hardware relocate Anywhere WORK EXPERIENCE Netsol technology Pune Pune Maharashtra September Present Designation System Engg Tooltech Global Engineering Pune pvt ltd azC Skilled Installation Configuration Administration Microsoft Windows Windows server Server Windows Win XP Server amp client environment banking software industry User administration File server administration Disk management azC Providing hardware amp network support Installation amp Configuration Hardware Maintenance Internet Connection Sharing Routing Windows Data Backups Restoration Managing NTFS Security Permission Configuring amp Managing Print Server printer administration azC Software installation system Setup configure LAN amp share customer end requirement azC Ownership Helpdesk closure azC resolution azC Attending phone Perform Patch management Client Schedule Saturday System maintenance task Saturday Implement change request approval System Administrator Sr System Administrator Coordination communication System Administrator Sr System Administrator Manage monitor LAN WAN network Recommend equipment Maintain inventory Laptops Monitors Draft maintain documentation Perform routine audits software avoid misuse internet azC Troubleshoot Every day pending task report System Administrator Sr System Administrator Complete record day day activity department azC Attend department meeting Thursday Configure manage Troubleshooting Design software i AutoCAD Pro-E Solid Catia corel draw AutoCAD LT Etc EDUCATIONAL QULIFICATION Desktop support egg Infosys Pune Gayatri Infotech Pvt Ltd Pune Maharashtra July January The company Authorized Service computer brand The company Provides hardware network support software Industry SKILLS active directory Less year Less year DNS Less year Hardware troubleshooting Less year Windows Server year ADDITIONAL INFORMATION a tm | Systems MICROSOFT Windows server aEURC Build Windows Active Directory DNS DHCP Management aEURC corrected medium current network User Management Management Permissions requirement aEURC File System Management Advanced Hardware Software Installation configuration Management aEURC Hardware MICROSOFT Windows XP Window Window Window aEURC Advanced Hardware Software Installation configuration Management File System Management Hardware PROFFESIONAL CERTIFICATION aEURC Microsoft Certified Windows active directory
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 303
+FALSE NEGATIVE: 8
+---------------------------------
+ACCURACY (moja bez true neg): 0.07142857142857142
+ACCURACY: 0.9559748427672956
+PRECISION: 0.5
+RECALL: 0.1111111111111111
+F1: 0.1818181818181818
+
+127
+SKILLS: Python Java jQuery JavaScript Ajax Linux SQL kafka Elasticsearch Prometheus Grafana kibana Docker MySQL
+PREDICTED POSITIVE: python APACHE KAFKA Java Python JAVA Python Docker
+PREDICTED NEGATIVE: Shreya Agnihotri Senior System Engineer Infosys Limited Infosys Bengaluru Karnataka Email Having Web Application design Django framework aEURC Highly Agile Developer strong record excellent teamwork successful coding project management Good knowledge Elasticsearch Django HTML MYSQL JavaScript jQuery aEURC Performed role team member Involved requirement gathering analysis technical perspective aEURC software Design Development Implementation Integration Testing aEURC Possesses good analytical logical ability systematic approach problem analysis classic software development Agile Methodologies WORK EXPERIENCE Senior System Engineer Infosys Limited Infosys January Present program aEURC Working Senior System Engineer Infosys Limited January till date EDUCATION B Tech ECE Galgotias University SKILLS Ajax Less year Less year HTML SQL ADDITIONAL INFORMATION Technical Profile Web HTML Frameworks Django framework Programming Languages Java Scripting Language jQuery JavaScript Ajax Systems Linux Databases SQL kafka Tools Utilities Elasticsearch Prometheus Grafana kibana
+---------------------------------
+CORRECT POSITIVE: 4
+FALSE POSITIVE: 4
+CORRECT NEGATIVE: 108
+FALSE NEGATIVE: 16
+---------------------------------
+ACCURACY (moja bez true neg): 0.21428571428571427
+ACCURACY: 0.8809523809523809
+PRECISION: 0.5
+RECALL: 0.2
+F1: 0.28571428571428575
+
+128
+SKILLS: ASP ASP.NET MS ASP .NET C# MVC . ASP.NET JavaScript JQuery AJAX Windows Services SQL Server MS Visual Studio SQL server HTML CSS . XML Microsoft Office MS PowerPoint MS Word MS Visio MS Excel Microsoft Windows TFS VSS
+PREDICTED POSITIVE: CSS
+PREDICTED NEGATIVE: Meenalochani Kondya Systems Engineer Infosys Bangalore Bangalore Urban Karnataka Email Kondya/ebdead aEURC Completed M Tech Software specialization Data Analytics Work Integrated Learning Program Birla Institute Technology Science Pilani aEURC Placed Infosys college campus Internship program February May Infosys Mysore campus aEURC Over software development experience web NET Framework aEUR| SQL Server aEURC depth knowledge NET Framework C MVC / Good experience Database Design Software Development Life Cycle SDLC aEURC Experienced converting Business Requirements Technical Specifications Good design Excellent team player team leader relocate Bangalore Urban Karnataka WORK EXPERIENCE Senior Systems Engineer Infosys Software development Systems Engineer Infosys Hyderabad Gas Request Hyderabad Telangana December June December June This project new application DESCRIPTION This web application MVC HTML JavaScript MS-SQL open source Javascripts Slickgrid developer responsibility project design development Gas Request Systems Engineer Infosys Hyderabad Southern Gas CLIENT Southern Gas subsidiary Atlanta Gas Light NYSE GAS natural gas delivery service Georgia ROLE Developer PERIOD October November This project new application following- Enabled gas connection gas contract faulty gas analysis repair DESCRIPTION status The application offline connectivity This web application MVC HTML JavaScript MS-SQL developer responsibility project design development unit system MEENALOCHANI HARI KONDYA Net Developer Mobile + E-mail EDUCATION M Tech Technology Science Birla Institute Pilani Rajasthan B Tech Sri Ramakrishna Anna University Education Board Secondary Coimbatore Tamil Nadu University u Technology Engineering College Coimbatore Tamil Nadu State Board Matriculation School Coimbatore Tamil Nadu SKILLS ASP year year MS ASP year NET year ENGINEER Less year ADDITIONAL INFORMATION Technical Skills Languages C MVC JavaScript JQuery AJAX Windows SQL Server IDE MS Visual Studio SQL server Web Authoring Tools HTML XML Microsoft Office MS PowerPoint MS Word MS Visio MS Excel Systems Microsoft Windows Source Code TFS VSS Management MEENALOCHANI HARI KONDYA Net Developer Mobile + E-mail Project Details Doodle Web Senior Engineer Infosys Bangalore Southern Gas CLIENT Southern Gas subsidiary Atlanta Gas Light NYSE GAS natural gas delivery service Georgia
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 290
+FALSE NEGATIVE: 13
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9235668789808917
+PRECISION: 0.0
+RECALL: 0.0
+F1: 0
+
+129
+SKILLS: C C++ Java MySQL Linux Windows JIRA Application Manager AppDynamics AWS Ecllipse HTML PHP jQuery AJAX
+PREDICTED POSITIVE: MySQL
+PREDICTED NEGATIVE: Shrinidhi Selva Kumar NOC QA Engineer Skava Infosys Company Data Mining Coimbatore Tamil Nadu Email Kumar/defabba Willing relocate Chennai Tamil Nadu Bangalore Karnataka Coimbatore Tamil Nadu WORK EXPERIENCE NOC QA Engineer Skava Infosys Company Data Mining August Present AREAS OF INTEREST Networking aEURC Software Testing aEURC Data Mining SKILL SET Languages C C++ Java Database Platforms Linux Windows Tools JIRA Application Manager AppDynamics AWS Ecllipse Web HTML PHP jQuery AJAX INTERN DETAILS Training Mazenet Solutions NET EDUCATION B E CSE Tejaa Shakthi Institute Technology Womens June Kongu Vellalar Mat Hr Sec School Board University Did Compering College
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 84
+FALSE NEGATIVE: 13
+---------------------------------
+ACCURACY (moja bez true neg): 0.06666666666666667
+ACCURACY: 0.8585858585858586
+PRECISION: 1.0
+RECALL: 0.07142857142857142
+F1: 0.13333333333333333
+
+130
+SKILLS: CRM DATABASE ORACLE Tosca Automation Testing Selenium Core Java IBM Rational Collaborative Lifecycle Management IBM Rational Quality Management TOSCA Selenium Core Java Eclipse Oracle EDB Sqlserver SQL Developer Toad Tora Filezilla MobaXterm Putty Office tools Windows UNIX Finacle Core Banking Solution Finacle CRM Solution
+PREDICTED POSITIVE: ORACLE
+PREDICTED NEGATIVE: Mayank Shukla Infosys group Test Analyst Infosys Ltd Edgeverve Ltd Bengaluru Karnataka Email Automation Testing TOSCA selenium a- Worked BFSI different software engineering Agile methodology Waterfall methodology Knowledge project management IBM CLM Received Award Excellence Tricentis Automation TOSCA Willing relocate Noida Uttar Pradesh Gurgaon Haryana Bengaluru Karnataka WORK EXPERIENCE Infosys group Test Analyst Infosys Ltd Edgeverve Ltd January Present Test Analyst Infosys Ltd Infosys subsidiary Ltd Infosys Finacle Performing automation agile methodology Finacle Core Banking Solution Finacle CRM Solution a- Worked automation Selenium TOSCA Worked Agile Release Train ART Scaled Agile Framework IBM RCLM tool a- Working Developers Scrum software development model prepare test scope Conducting functional regression end end IBM Rational Quality Manager cross APIs Experience Web API Worked distributed execution technique Automation Testing Jenkins Experience Oracle Database SQL SQL Loader SQL Plus Involved performance batch processing UNIX Involved defect IBM Change Configuration Management CCM application Jazz platform Worked live project Finacle Core Banking solution provide Beta Quality Certifications solution EDUCATION MBA Banking Finance Manipal University Bengaluru Karnataka B Tech Information Technology Saroj Institute Technology Management Lucknow Uttar Pradesh Lucknow Public Inter College Lucknow Uttar Pradesh DIVISION SKILLS CRM DATABASE Tosca Automation Testing Selenium year Core Java year ADDITIONAL INFORMATION Key Skills Software IBM Rational Collaborative Lifecycle Management Testing Tool IBM Rational Quality Management Jazz Server Test Automation Tools TOSCA Selenium Programming Language Core Java IDE Eclipse Database Oracle EDB Sqlserver Database Tools SQL Developer Toad Tora Software Filezilla MobaXterm Putty Office Platforms Windows UNIX Domain Software Knowledge Finacle Core Banking Solution Finacle CRM Solution Skills Fast learner leadership quality team player presentation punctual good communication
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 235
+FALSE NEGATIVE: 25
+---------------------------------
+ACCURACY (moja bez true neg): 0.04
+ACCURACY: 0.9076923076923077
+PRECISION: 1.0
+RECALL: 0.038461538461538464
+F1: 0.07407407407407407
+
+131
+SKILLS: Sql Server Cloud Computing OpenStack OpenShit AWS GCP Azure ClouStack KVM Hyper-V Citrix Xen Server ESXi Chef Ansible Jenkins Maven Sonar Qube Nexus Teamcity Octopus
+PREDICTED POSITIVE: Docker
+PREDICTED NEGATIVE: Ahmad Bardolia Project Lead Infosys OpenStack Email OpenStack Cloud implementation Project Lead Infosys OpenStack triplO Redhat Director Private cloud OpenShift India OpenStack Cloud implementation Project Lead Makemytrip OpenStack Private cloud India OpenStack Cloud implementation Project Lead Solartis Chennai Madurai OpenStack Private cloud India aEURC Team member OpenStack Private cloud deployment Cisco USA Deployed Private cloud OpenStack Government Bangalore Police cloud center aEURC POC OpenStack private cloud aEURC production cloud OpenStack kvm Virtualization Hyper-V Esxi KVM Citrix Xen Server Cloud AWS Azure Google Cloud Platform GCP OpenStack Red Cloud Director AWS Cloud EC EBS Autoscaling S cloud formation RDS DynamoDB Route AWS API AWS python SDK SNS SQS SWF Beanstalk AWS redshift AWS Elastic Map Cloud foundry Developer Deploying Pivotal cloud foundry AWS Google aEURC OpenShift Enterprise Implementing Redhat OpenShift Enterprise Premise OpenStack AWS Azure OR OpenStack Azure Cloud Skills Virtual Azure Active Directory Traffic Manager Azure Storage Azure storage Azure Implementing Azure Google Cloud Skills knowledge Google compute engine Migration Google cloud GCP Container Engine-An Overview GCP Container Registry GCP Cloud Storage GCP Cloud Datastore GCP Cloud SQL GCP Networking Load Balancing GCP Cloud DNS GCP Cloud Dataproc Big Data service GCP Cloud IAM Automation Chef Puppet ansible essential aEURC PaaS Pivotal cloud foundry Redhat OpenShift aEURC Docker Skills Docker Docker swarm Docker cloud cloud center GitHub integration Docker Kubernetes Version control GitHub Bit Bucket aEURC DevOps Skill Jenkins Maven SonarQube Teamcity Octopus JFrog Nexus Willing relocate Anywhere WORK EXPERIENCE Project Lead Infosys OpenStack OpenStack Cloud Chennai Tamil Nadu OpenStack Private cloud India aEURC Team member OpenStack Private cloud deployment Cisco USA Deployed Private cloud OpenStack Government Bangalore Police cloud center aEURC POC OpenStack private cloud aEURC production cloud OpenStack kvm Virtualization Hyper-V Esxi KVM Citrix Xen Server Cloud AWS Azure Google Cloud Platform GCP OpenStack Red Cloud Director AWS Cloud EC EBS Autoscaling S cloud formation RDS DynamoDB Route AWS API AWS python SDK SNS SQS SWF Beanstalk AWS redshift AWS Elastic Map Cloud foundry Developer Deploying Pivotal cloud foundry AWS Google aEURC OpenShift Enterprise Implementing Redhat OpenShift Enterprise Premise OpenStack AWS Azure OR OpenStack Azure Cloud Skills Virtual Azure Active Directory Traffic Manager Azure Storage Azure storage Azure Implementing Azure Google Cloud Skills knowledge Google compute engine Migration Google cloud GCP Container Engine-An Overview GCP Container Registry GCP Cloud Storage GCP Cloud Datastore GCP Cloud SQL GCP Networking Load Balancing GCP Cloud DNS GCP Cloud Dataproc Big Data service GCP Cloud IAM Automation Chef Puppet Version control GitHub Bit Bucket aEURC DevOps Skill Jenkins Maven SonarQube Teamcity Octopus JFrog Nexus EDUCATION Master SKILLS Sql Server Cloud Computing OpenStack OpenShit AWS GCP Azure ClouStack KVM Hyper- V Citrix Xen Server ESXi Chef Ansible Jenkins Maven Sonar Qube Nexus Teamcity Octopus
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 340
+FALSE NEGATIVE: 107
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9418282548476454
+PRECISION: 0.0
+RECALL: 0.0
+F1: 0
+
+132
+SKILLS: CDD
+PREDICTED POSITIVE: 
+PREDICTED NEGATIVE: Raktim Podder + Exp banking credit assessment Pune Maharashtra Email relocate Anywhere WORK EXPERIENCE SME TCS Tata Consultancy Services Project TELSTRA AUSTRALIA Sr Process Executive SME Telecom Business Case Management Technical support onsite support function Emails connection day day business production Team management Handling team FTEaEUR tm Daily oneaEUR tm Performance management Communicating process WFM EOD team performance Huddles catch-upaEUR tm s System access request Conflict management Business performance reporting Network setup network access management requirement line capacity minimal disruption stop solution BB connection setup Exception Management Telstra Digital Case management Order CCSS Rep HSBC Electronic Data Processing India Pvt Bengaluru Karnataka August November HSBC UK KYC Customer Relationship Management KYC National ID Address Income proofs Addition security Credit report external credit rating UK Calling customer current status process Asking additional documentation Interviewing customer portfolio BMM approval Liaising branch credit control execution Volume production volume documentation forecasting branch production Liaising branch understand volume performance ratio determine CRM volume dip CRM production rise Volume comparison trend analysis Weekly Monthly Quarterly dashboard creation Daily volume trend analysis Production process EOD Technical Implementation support Requirements development team UAT user acceptance IT team Sit development understand reason implementation FTEaEUR tm s Training provision FTEaEUR tm s Changes implementation development team Online banking platform support Helping online banking team implement CRM online management want integrate CRM online banking Meeting setup understand sit development team CRM process CRM integration online banking platform support every stage website coding development Communicating scope website development Helping baseline setup Providing data development team CRM tool access tool KYC Illustration page kind kind website support customer status application process email text CRM tool useful customer customer confusion provide support direct contact executive Understanding size project execute project Understanding risk maintenance place time date avoid minimal customer impact Information provision customer website maintenance information non How FTEaEUR tm s UAT particular code manpower planning BAU estimation project cost implementation FTE Methodology development technical knowhow Once function document template management approval Once approval development estimation support implementation UAT management happy implementation GO LIVE Infosys Process Executive aEURC Infosys PVT LTD National Australian Bank Project Australian Tasmania New Zealand Credit assessment executive credit credit memo approval SAP * Credit appraisal credit assessment Preparation financial data Probability default Credit risk ratio analysis aEURC Proposal preparation Assessment proposal Sanction approval proposal authority aEURC Documentations Disbursement loan Post stock Review regular basis CDD client Credit Reporting Analysis * Weekly quarterly report generation Solution design non Setting project branch project client understand requirement production | project plan initiation approval | initiation root cause analysis * * Decision * Pareto | root cause business need elicitation business problem | Project implementation Communicating current standing portfolio team communicating portfolio Historical credit loss report Pipeline Collections dashboard * Once communication root cause Credit Card loss aEURC credit card portfolio Using process recovery pool portfolio team target base credit assessment credit lending capacity customer * Once move project define Present Past performance analysis Trend Measurement portfolio Bad Debt Loss increase decrease percentage aEURC Percentage increase decrease ratio Graphs * Vertical * Trending * Hybrid Pie Scatter control setup process automation credit cycle EDUCATION Bcom West Bengal State University SKILLS EDD CDD credit risk assessment KYC Banking credit risk analysis Customer Handling Portfolio Management Customer Service AWARDS Best Quality January Rising Star June BPS star performer June
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 523
+FALSE NEGATIVE: 2
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9980916030534351
+PRECISION: 0
+RECALL: 0.0
+F1: 0
+
+133
+SKILLS: ADOBE PHOTOSHOP ANDROID APPLICATION SOFTWARE C++ CSS C C++ JAVA MySQL SQL server (SQLyog) HTML CSS Windows Ubuntu fedora Linux
+PREDICTED POSITIVE: ADOBE C++
+PREDICTED NEGATIVE: Pavithra M Infosys internship Bengaluru Karnataka Email relocate Bengaluru Karnataka WORK EXPERIENCE Infosys internship Infosys About detailed analysis interface clear idea affected region treatment availability Infosys internship Event management Good communication Leadership Team collaboration Creative EDUCATION CBSE STATE SSLC State board SKILLS PHOTOSHOP Less year ANDROID Less year APPLICATION SOFTWARE Less year Less year CSS Less year ADDITIONAL INFORMATION Technical Programing Languages C C++ JAVA aEURC Databases MySQL SQL server SQLyog aEURC Web HTML CSS aEURC Systems Windows XP Ubuntu Linux aEURC Application software Microsoft Office aEURC IDE Eclipse Netbeans Workshops Basic editing MS office aEURC Android workshop aEURC Adobe Photoshop Angular JS Project Internship JAVA Login Credentials DB connectivity
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 95
+FALSE NEGATIVE: 12
+---------------------------------
+ACCURACY (moja bez true neg): 0.07142857142857142
+ACCURACY: 0.8727272727272727
+PRECISION: 0.5
+RECALL: 0.07692307692307693
+F1: 0.13333333333333336
+
+134
+SKILLS: Microsoft-word Excel Power-point
+PREDICTED POSITIVE: 
+PREDICTED NEGATIVE: shrikant desai Working accountant @ infosys Pune Maharashtra Maharashtra Email Intercompany rr pp WORK EXPERIENCE Accountant @ Infosys Infosys India ltd Pune Maharashtra accountant rr pp IC EDUCATION Accounts University Kolhapur Maharashtra January January S M M MURGUD SKILLS @ Strong analytical ability @ Good communication Client relationship management @ Team player LINKS ADDITIONAL INFORMATION Computer Skills MS-CIT Course % Microsoft-word Excel Power-point @ Diploma Financial Accounting Erp %
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 63
+FALSE NEGATIVE: 3
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9545454545454546
+PRECISION: 0
+RECALL: 0.0
+F1: 0
+
+135
+SKILLS: file systems Linux maintenance
+PREDICTED POSITIVE: Linux Redhat Linux
+PREDICTED NEGATIVE: Kiran Kumar Having IT Linux Administration Infosys Bangalore Good knowledge Red Linux Bengaluru Karnataka Email Having IT Linux Administration Knowledge maintenance Linux Systems Installation Configuration Maintenance Administration Red Hat Enterprise / Checking Linux server CPU Utilization Memory Utilization Disk Utilization performance monitoring Managing User Administration new file LVM Installation software RPM YUM Expertise Raid Good knowledge Cron azC Knowledge ACL implementation user Good knowledge Disk quota management azC Network IP address Static DHCP Apply Sticky RHEL process Creation Symbolic Telangana Bangalore Karnataka Chennai Tamil Nadu WORK EXPERIENCE Infosys Linux Admiration Infosys Bengaluru Karnataka May Present Linux Administrator EDUCATION Bachelor Technology insurance SRIKALAHASTEESWARA INSTITUTE OF TECHNOLOGY SKILLS maintenance ADDITIONAL INFORMATION Operating Linux Role System Roles Responsibilities Perform software installation maintenance Linux Cron-job User administration Creation New file File Backup management TAR Day day Linux server performance azC Installation software RPM YUM day-to-day user administration azC Installation Configuration Administration Apply Sticky RHEL process Creation Symbolic
+---------------------------------
+CORRECT POSITIVE: 2
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 137
+FALSE NEGATIVE: 13
+---------------------------------
+ACCURACY (moja bez true neg): 0.3333333333333333
+ACCURACY: 0.9787234042553191
+PRECISION: 0.6666666666666666
+RECALL: 0.13333333333333333
+F1: 0.2222222222222222
+
+136
+SKILLS: MS-Access Hardware & Networking Java C C++
+PREDICTED POSITIVE: 
+PREDICTED NEGATIVE: Akash Gulhane Microsoft Certified System Engineer Amravati Maharashtra Email Gulhane/bfaacd work progressive organization company WORK EXPERIENCE Microsoft Certified System Engineer Technical Skills CCNA Cisco Certified Network Associate Database MS-Access Hardware Networking Core Java C C++ Systems Windows server O S Windows XP// User Level Final Year Project factor access control efficient revocation Name Project multy-authority Cloud Storage System Team Size My Role Software Developer net Front End Tool Database SQL Server Environment JRE Java Runtime Environment Objective Personal Narsamma Amravati Maharashtra College Ramkrishna krida High Amravati Maharashtra School Computer Skills
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 83
+FALSE NEGATIVE: 5
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9431818181818182
+PRECISION: 0
+RECALL: 0.0
+F1: 0
+
+137
+SKILLS: SQL HTML INCIDENT MANAGEMENT IT INFRASTRUCTURE MS OFFICE
+PREDICTED POSITIVE: SQL
+PREDICTED NEGATIVE: Shivam Sharma L Analyst Microsoft project HCL Ghaziabad Uttar Pradesh Email Sharma/efb WORK EXPERIENCE L Analyst Microsoft project HCL Noida Uttar Pradesh September Present Learnings learnt work Sql server integration software Microsoft service SNOW aEURC L analyst IT Command Center team monitoring Handson experience tool service SNOW aEURC network break fix Communicating different track proper resolution aEURC GMO Sql job disk space aEURC RPD connectivity disc space servicesSPN creation deletion aEURC Knowledge DHCP DORA process Active DNS FSMO IP trust new process EDUCATION Bachelor Technology Computer Science Engineering Indraprastha Engineering College Uttar Pradesh Technical University Ghaziabad Uttar Pradesh Greenfields Public School New Delhi Delhi SKILLS year HTML Less year INCIDENT MANAGEMENT Less year IT INFRASTRUCTURE Less year MS OFFICE Less year ADDITIONAL INFORMATION CORE COMPETENCIES Professional Communication Incident management IT infrastructure L MS Office Windows OS PERSONAL TRAITS Ability result pressure Good time management Ability work team analytical critical thinking good presentation
+---------------------------------
+CORRECT POSITIVE: 1
+FALSE POSITIVE: 0
+CORRECT NEGATIVE: 139
+FALSE NEGATIVE: 1
+---------------------------------
+ACCURACY (moja bez true neg): 0.2
+ACCURACY: 0.9722222222222222
+PRECISION: 1.0
+RECALL: 0.5
+F1: 0.6666666666666666
+
+138
+SKILLS: SAP HANA SAP UI/Fiori AngularJs Web Development Asp.Net C# SQL Server HTML Javascript CSS Software Solution Design VBA SAP BI
+PREDICTED POSITIVE: SQL HTML Javascript CSS VBA
+PREDICTED NEGATIVE: Suman Biswas SAP UI Lead Native HANA Developer Royal Dutch Shell Bengaluru Karnataka Email relocate Toronto ON WORK EXPERIENCE Software Engineer Shell Bangalore Karnataka March Present SAP UI Lead Native HANA Developer Technical leader frontend team team SAP UI Fiori OData XSJS aEURC end end development CRV CRD Prelude Charon CTT GPD AIF Analyse business requirement solution prepare prototype security model application architecture effort estimation development delivery aEURC Project HANA box outside world HCP connectivity mobile application aEURC Requirement analysis planning design HANA XS application aEURC Creation HANA calculation unit currency conversion row level application enable security Analytic privilege xsaccess aEURC Agile DevOps methodology aEURC Interviewer SAP UI XS SAPUI aEURC AngularJs Software Engineer IBM Bangalore August January Native HANA developer July January team lead onsite coordinator March aEUR June SAP BI January aEUR February VBA developer August aEUR December aEURC British Petroleum BP UK National Grid NG UK Lab SAP Solution LSS US account SAP HANA native development LSS NG aEURC Developed dash real time NG HANA calculation view HANA aEURC Developed SAP HANA XS SAP UI Lumira SAP BI IP production support system application BP downstream business aEURC Saved man CI CI year aEURC Performed team lead role BP account onsite coordinator BP London UK report BP refining incident change release management production support system SME Visual Basic Application VBA SAP BEx Report Customization National Grid account energy industry UK plant management HANA development aEURC IBM team POCs new business mock LSS account Senior Web Developer aEUR Microsoft Technology Global System Kolkata West Bengal January July Developed multiple web C Net SQL Server work version online music store cart multiple BB BC Senior Web Developer Microsoft Technology Global System Technologies Private Limited January July Developed web C Net SQL Server work version online music store cart multiple BB BC Software Developer-Microsoft VIBGYOR TechSolutions Kolkata West Bengal April December aEURC Mostly C Net MS SQL Server XML flash action script v. aEURC network TCP socket multi-threading image processing Software Developer-Microsoft VIBGYOR TechSolutions April December aEURC Mostly C Net MS SQL Server XML flash action script v. aEURC network TCP socket multi-threading image processing Developer Bright Soft Solutions March February Primarily MS SQL Server C Net OOP D dynamic animation aEURC Developed online poker card Texas Omaha development US client Award Recognition aEURC Shell CIO award aEURC Best IBM award aEURC Best CI year award EDUCATION MBA Information Technology Sikkim Manipal University Bachelor Arts University Calcutta Kolkata West Bengal A Level Computer Application DOEACC O Level Computer Application DOEACC SKILLS SAP HANA SAP UI Fiori AngularJs Less year Web Development C Server Software Solution Design SAP BI LINKS AWARDS Shell CIO October Received Shell CIO award Prelude project Best IBM December Best IBM award perform outstanding performance whole year Best CI year award December able save man continuous improvement CI technical area project The work CI award CERTIFICATIONS LICENSES Introduction Oil Industry aEURoeThe Oxford Princeton ProgrammeaEUR June Present Introduction Gas Industry Oxford Princeton ProgrammeaEUR June Present PUBLICATIONS Technical Blog Socket Programming C January Detail technical blog socket multi-thread programming C Net sample code beginner advance level programmer Till ADDITIONAL INFORMATION Self-initiative aEURC Developed social network application C Net MySQL JavaScript jQuery CSS HTML development social feature chat friendship photo status share aEURC setup Windows server Web server IIS MySQL DB setup schedule backup email server configuration development setup client-server load CPU performance email process development aEURC Developed social support
+---------------------------------
+CORRECT POSITIVE: 4
+FALSE POSITIVE: 1
+CORRECT NEGATIVE: 528
+FALSE NEGATIVE: 6
+---------------------------------
+ACCURACY (moja bez true neg): 0.3076923076923077
+ACCURACY: 0.981549815498155
+PRECISION: 0.8
+RECALL: 0.4
+F1: 0.5333333333333333
+
+139
+SKILLS: DATA BACKUP EXCHANGE LAN MAINTENANCE SAP
+PREDICTED POSITIVE: III ISDN IBM
+PREDICTED NEGATIVE: Anil Kumar Microsoft Azure Basic Management Delhi Delhi Email career IT-Manager experience design development area IT development management Long term IT consultant position STRENGTH Ability positive approach quick learner good performer team independent environment self-confident WORK EXPERIENCE Microsoft Azure Basic Management FTP TELNET aEURC Design implementation Exchange Servers Network customer specific Designing LAN WAN TCP IP UDP DHCP HTTP FTP TELNET aEURC remote support Pentium Pentium II Pentium Servers Windows NT Windows Server MS Windows Server R MS Windows Server R aEURC Software Office Pro Office Office XP Pro Office Microsoft Office Microsoft Office Microsoft Office Microsoft Office Visual studio installation MacAfee Norton Antivirus Escan Antivirus software support aEURC Configuration E-mail Clint software Outlook Express Windows mail Microsoft Outlook Installation maintenance Intel dual processor HP IBM Dell Tower Rack Managing Network Racks LAN WAN Installation Backup backup restoration aEURC Maintenance support type Notebooks HP IBM HCL Lenovo Dell Toshiba Apple Mac book All kind Handheld Etc OPERATING SYSTEMS INSTALLED aEURC Microsoft Azure Basic Management aEURC Microsoft Windows Server Microsoft Windows Server Microsoft Windows Server aEURC Windows Professional aEURC Windows Professional aEURC Windows Professional aEURC Microsoft Windows Vista aEURC Microsoft Windows Prof aEURC Microsoft Windows XP Prof aEURC Microsoft Windows ME Microsoft Windows aEURC Microsoft Windows EDUCATION MG University Certification OXFORD SOFTWARE INSTITUTE SKILLS DATA BACKUP year EXCHANGE year LAN year MAINTENANCE year SAP year ADDITIONAL INFORMATION SKILLS Server Management Basic Web content management Joomla WordPress Desktop Notebook management IT consultancy Data management Software management Network management Active Passive Vendor development PROFESSIONAL SUUMARY IT experience implementation LAN WAN MPLS Server installation maintenance EPABX VOIP function maintenance System Administration Pentium Pentium III Pentium Servers Software Hardware Network management different organization TotipotentSC Scientific Product Pvt Ltd Gurgoan Cesca Therapeutics Inc US Working Assistant Manager-IT th September IT job IT management vendor development vendor management IT asset backup SAP database server backup NAS Matrix NEC Topaz EPABX management Spiceworks Spiceworks software management tool implementation management Cyberoam CRia Implementation Secure VPN Tunnel Udyog Vihar office Fortis Stem Cell implement user security policy TCP IP traffic user Firewall TotipotentRX Cell Therapy Pvt Ltd Lab setup Fortis Gurgaon Airtel Lease Line MB CCTV Honeywell Biometric Access Pro Cyberoam CRing Implementation Secure VPN Tunnel Fortis Stem cell Lab Suncity Success Tower Office implement user security policy TCP IP traffic user Firewall implementation Pal Business Working Senior Engineer March September TotipotentSC Scientific Product Pvt Ltd Gurgoan Working IT-Consultant SAP Coordinator TotipotentSC Upgrading Complete IT PAN India Implementation Domain Server security SAP Server backup Thecus TB NAS automatic backup secure manage IT Data Implementation History IBM X Server Domain Controller Dedicated Shared Folder security point view SAP Server SAP Coordinator daily basis SAP backup SQL Server NAS Thecus TB Disk space TB Data backup rest TB server backup LCD Console Aten LCD Console Dlink KVM Switch Anti Virus EScan Anti Virus Implementation Data Security Policy Mailing Software IQuinox Postmaster Enterprise implementation Local remote user configuration Leave Studies Leaves Studies February rd March Dayal Computers Working Technical Head October January Managing Project deployment client management manage call escalation design Corporate Solution INTERLINK Information Systems Pvt Ltd Working senior customer support Executive Network System Maintenance February October THE MICRONUTRIENT INITIATIVE Working Micronutrient Initiative job IT-Manager Interlink Information Systems Pvt Ltd From st July February Canada Exchange server HP Prolaint ML Tandberg Data Ultrium backup device Lines Cisco PIX Firewall hand Blackberry Remote Technical Support Asia pacific Coordinate Vender PROJECTS IN THE MICRONUTRIENT INITIATIVE FIRE PROFF SAFE MI- IT cartridge Upgrade Alcatel-Lucent OmniPCX Office system M cabinet L cabinet VOIP Integrated CTI Server PIMPhony PC telephony Software Alcatel Integrated Voice Mail System Personal Assistant INTERNATIONAL AIDS VACCINE INITIATIVE Working System-Cum-Server Administrator Interlink Information Systems Pvt Ltd From March th June X Series Xeon Server IBM X Series P-IV Server Network Printers NAS hand Blackberry Sysware InfoTech Pvt Ltd Delhi senior customer support Engineer Network System Maintenance rd July February National Dairy Research Institute Karnal A Network System Maintenance Engineer Resident SIPL Delhi NDRI Karnal st August th August Desktops Printers Lasers Desk Jet MFP Scanners Online Offline UPS Vipul Infrastructure Developers Ltd Posted Network System Maintenance Engineer Resident SIPL Delhi July July Desktops Notebooks Manage Cisco L- L- Tecumseh Product India Pvt Ltd Hyderabad Network Engineer Resident SIPL Delhi March th July Network range D-Link Cisco Active Passive Desktops Notebooks Tecumseh Products India Pvt Ltd Ballabhgarh Posted Network System Maintenance Engineer Resident SIPL Delhi th June th February Desktops Notebooks Cisco D-Link Active Passive Network Devices Network Accessories Installed aEURC UTM aEURC Routers Series Access D-link Linksys aEURC Network Media RJ UTP Cat Media Converters OFC Termination SC ST Connectors Modems Hubs Switches L- aEURC Switches L- aEURC Vlans CCTV DVR Hikvision
+---------------------------------
+CORRECT POSITIVE: 0
+FALSE POSITIVE: 3
+CORRECT NEGATIVE: 753
+FALSE NEGATIVE: 13
+---------------------------------
+ACCURACY (moja bez true neg): 0.0
+ACCURACY: 0.9894875164257556
+PRECISION: 0.0
+RECALL: 0.0
+F1: 0
+
+OVERALL ACC (od ukupno vještina koliko je izvukao/bez true negative): 0.0629523258696191
+OVERALL ACC: 0.946149254657772
+OVERALL PRECISION: 0.29904761904761906
+OVERALL RECALL: 0.05756592613735471
+OVERALL F1: 0.08811767482574935

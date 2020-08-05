@@ -1,46 +1,63 @@
-Gaurav Soni
-New Delhi, Delhi - Email me on Indeed: indeed.com/r/Gaurav-Soni/d492b5b1697f7f66
+﻿Shreya Agnihotri
+Senior System Engineer at Infosys Limited - Infosys
+
+Bengaluru, Karnataka - Email me on Indeed: indeed.com/r/Shreya-Agnihotri/
+c1755567027a0205
+
+â€¢ Having 2.7 years of experience in Web Application design using python Django
+framework.
+â€¢ Highly experienced and skilled Agile Developer with a strong record of excellent
+teamwork and successful coding project management.
+â€¢ Good knowledge in python, Elasticsearch, Django using HTML5, MYSQL, JavaScript,
+jQuery.
+â€¢ Performed the role of team member effectively. Involved in requirement gathering and
+analysis of the requirements in technical perspective.
+â€¢ Extensively worked on software in all the phases including Design, Development,
+Implementation, Integration and Testing.
+â€¢ Possesses good analytical, logical ability and systematic approach to problem analysis,
+strong debugging and troubleshooting skills.
+â€¢ Working on classic software development models along Agile Methodologies.
 
 WORK EXPERIENCE
 
-Software Developer
+Senior System Engineer at Infosys Limited
 
-ION Trading -
+Infosys -
 
-June 2016 to Present
+January 2016 to Present
 
-As part of ION Trading, I have been working as a core product developer on a Repurchase
-Agreements(REPO) Trading Solution, called Anvil 9 Trading Solution. Currently I am working on
-Order Management System, which is a component/service that enable the traders to capture
-orders from emails and chats. I have also worked on Apache CoreNLP to leverage its Named
-Entity Recognition feature to extracting business keywords from a given text.
-
-Intern
-
-Microsoft -  Hyderabad, Telangana -
-
-June 2015 to August 2015
-
-I was part of the Microsoft Service Global Delivery Internship for two months in Hyderabad. On
-my internship, I got an opportunity to develop a Windows 10 application.
+training program.
+â€¢ Working as Senior System Engineer at Infosys Limited from January 2016 to till date.
 
 EDUCATION
 
-B.Tech(Computer Science) in CSE
+B.Tech in ECE
 
-GGSIPU
-
-2012 to 2016
+Galgotias University
 
 SKILLS
 
-C# (Less than 1 year), Java, OOPs, Guice, Microservice architecture, Software Development,
-XAML, ATDD, SOLID, SOA, Scrum, Robot Framework, TDD
+Ajax (Less than 1 year), APACHE KAFKA (Less than 1 year), HTML5 (2 years), Java (2 years),
+SQL (2 years)
 
 ADDITIONAL INFORMATION
 
-Skills: JAVA, C#, WPF, XAML, Robot Framework, Scrum, Guice, ATDD, SOA, Fixed Income, CoreNLP,
-SOLID
-programming, OOPs, NLP, Microservice architecture.
+Technical Profile:
 
-https://www.indeed.com/r/Gaurav-Soni/d492b5b1697f7f66?isid=rex-download&ikw=download-top&co=IN
+Web Technologies Python, JAVA, HTML5.
+
+Frameworks Django framework.
+
+https://www.indeed.com/r/Shreya-Agnihotri/c1755567027a0205?isid=rex-download&ikw=download-top&co=IN
+https://www.indeed.com/r/Shreya-Agnihotri/c1755567027a0205?isid=rex-download&ikw=download-top&co=IN
+
+
+Programming Languages Python, Java.
+
+Scripting Language jQuery, JavaScript, Ajax.
+
+Operating Systems: Linux
+
+Databases: SQL, kafka.
+
+Tools and Utilities: Elasticsearch, Prometheus, Grafana, kibana, Docker

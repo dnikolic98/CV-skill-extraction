@@ -1,5 +1,13 @@
 import re
 import pandas as pd
+from unidecode import unidecode
+import nltk
+from nltk.corpus import stopwords
+
+
+def remove_non_ascii(text):
+    return unidecode(unicode(text, encoding="utf-8"))
+
 
 class TextFormater():
     def __init__(self):
@@ -8,14 +16,19 @@ class TextFormater():
 
     def format(self, text):
         text = text.replace("\n", " ")
+
+        stop_words = set(stopwords.words('english'))
+        filtered_sentence = [w for w in text.split() if not w in stop_words]
+        text = " ".join(filtered_sentence)
+        text = unidecode(text)
         text = re.sub(self.link_rex, "", text)
         text = re.sub("[^\x20-\x7E]", "", text)
         text = re.sub("[\w\.-]+@[\w\.-]+(\.[\w]+)+", "", text)
-        text = re.sub(r'(?<=\D)[")\[\]\{\}(]|[.,/\[\]\{\}:")(](?=\D)', ' ', text)
+        text = re.sub(
+            r'(?<=\D)[")\[\]\{\}(]|[.,/\[\]\{\}:")(](?=\D)', ' ', text)
         text = re.sub(" - ", " ", text)
         text = re.sub("'s", "", text)
         text = re.sub("\d+", "", text)
         text = re.sub(" +", " ", text)
-        
+
         return text
-    
